@@ -7,7 +7,7 @@ This script requires the user to use their own Salmon index, as one is not provi
 The data used in these plots has not been published yet and is not yet publically available. The following are examples for script usage. 
 
 ### Example heatmap of Inflammatory Pathway genes up/downregulated 
-![Image](ExamplePlots/heatmap_screenshot.png)
+![Heatmap](ExamplePlots/All_Genes_HALLMARK_INFLAMMATORY_RESPONSE.xls.pdf)
 
 
 
