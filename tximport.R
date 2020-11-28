@@ -4,7 +4,7 @@ library(dplyr)
 library(jsonlite)
 library(EnsDb.Hsapiens.v86)
 
-
+#Annotation tables can be found on the gencode website
 t10b <- read.table("../index/gencodev27.annotation.txt", stringsAsFactors=FALSE, col.names ="Name")
 TranscriptID <- t10b[,1]
 Transcripts <- sapply(strsplit(TranscriptID,'|',fixed=TRUE), "[[", 1)
@@ -20,12 +20,11 @@ names(salmon.files) = samples
 # Check all exist
 salmon.files[!file.exists(salmon.files)] #name character(0) means yes
 
-
 # import
 salmon.tx = tximport(salmon.files, type="salmon", tx2gene=tx2gene, countsFromAbundance="no",ignoreAfterBar=TRUE)
 genes_all = rownames(salmon.tx$abundance)
 salmon.counts = salmon.tx$abundance
-write.table(salmon.counts, file="EGD-salmon.counts.tsv",sep='\t',quote=FALSE,row.names=TRUE)
+write.table(salmon.counts, file="your.salmon.counts.tsv",sep='\t',quote=FALSE,row.names=TRUE)
 
 ###save it as a file
-save(salmon.tx, file = "EGD-salmon.counts.RData")
+save(salmon.tx, file = "your.salmon.counts.RData")
