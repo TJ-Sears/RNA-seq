@@ -15,7 +15,7 @@ The data used in these plots has not been published yet and is not yet publicall
 ### Heatmap of UPR pathway genes up/downregulated 
 
 
-![heatmap](ExamplePlots/Screen Shot 2020-11-28 at 12.28.35 PM.png)
+![heatmap](ExamplePlots/upr_heatmap.png)
 
 
 ### Waterfall plot of top 50 genes sorted by absolute value of log2 fold change
