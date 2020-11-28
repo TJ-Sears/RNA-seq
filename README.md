@@ -16,3 +16,9 @@ The data used in these plots has not been published yet and is not yet publicall
 
 
 ![waterfallplot](ExamplePlots/Waterfall_screenshot.png)
+
+
+### Bubble plot of GSEA results
+
+
+![bubbleplot](ExamplePlots/0v4_bubble.png
