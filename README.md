@@ -7,8 +7,6 @@ This script requires the user to use their own Salmon index, as one is not provi
 The data used in these plots has not been published yet and is not yet publically available. The following are examples for script usage. 
 
 ### Example heatmap of inflammatory pathway genes up/downregulated 
-![Heatmap](ExamplePlots/heatmap_screenshot2.png?s=200)
-
-<img src="https://github.com/TJ-Sears/RNA-seq/blob/main/ExamplePlots/heatmap_screenshot2.png" width="100" height="100">
+<img src="https://github.com/TJ-Sears/RNA-seq/blob/main/ExamplePlots/heatmap_screenshot2.png" width="400" height="600">
 
 
