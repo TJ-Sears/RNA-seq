@@ -6,7 +6,13 @@ This script requires the user to use their own Salmon index, as one is not provi
 ## Example Plots
 The data used in these plots has not been published yet and is not yet publically available. The following are examples for script usage. 
 
-### Example heatmap of inflammatory pathway genes up/downregulated 
+### Heatmap of inflammatory pathway genes up/downregulated 
+
+
 <img src="https://github.com/TJ-Sears/RNA-seq/blob/main/ExamplePlots/heatmap_screenshot2.png">
 
 
+### Waterfall plot of top 50 genes sorted by absolute value of log2 fold change
+
+
+![waterfallplot](ExamplePlots/Waterfall_screenshot.png)
