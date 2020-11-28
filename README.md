@@ -12,10 +12,10 @@ deseq2_analysis_and_plotting.R processes the count matrix using Deseq2, a popula
 ## Example Plots
 The data used in these plots has not been published yet and is not yet publically available. The following are examples for script usage. The data used is from a time course experiment where changes in gene expression and gene ontology are monitored over time
 
-### Heatmap of inflammatory pathway genes up/downregulated 
+### Heatmap of UPR pathway genes up/downregulated 
 
 
-<img src="https://github.com/TJ-Sears/RNA-seq/blob/main/ExamplePlots/heatmap_screenshot2.png">
+![heatmap](ExamplePlots/Screen Shot 2020-11-28 at 12.28.35 PM.png)
 
 
 ### Waterfall plot of top 50 genes sorted by absolute value of log2 fold change
