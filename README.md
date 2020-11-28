@@ -21,4 +21,10 @@ The data used in these plots has not been published yet and is not yet publicall
 ### Bubble plot of GSEA results
 
 
-![bubbleplot](ExamplePlots/0v4_bubble.png
+![bubbleplot](ExamplePlots/0v4_bubble.png)
+
+
+### Line graph of selected genes
+
+
+![linegraph](ExamplePlots/linegraph_screenshot.png)
